@@ -1,16 +1,16 @@
 package org.selenium.pom.base;
 
-import jdk.jfr.Timespan;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.selenium.pom.utils.ConfigLoader;
-import org.testng.annotations.BeforeMethod;
+
 
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
+
 
 public class BasePage {
     protected WebDriver driver;

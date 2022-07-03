@@ -7,3 +7,9 @@ git remote add origin https://github.com/Zeus298/askomdch.comSeleniumTest.git
 git remote -v
 git commit -m "first commit"
 git push -u origin master
+
+If want push new commit when changed code
+Check using : git status
+git add  src/test/java/org/selenium/pom/base/BasePage.java
+git commit -m "abc"
+git push
