@@ -49,11 +49,12 @@ public class CheckOutTestUsingAPI extends BaseTest  {
         UserLogin user = new UserLogin();
         FakerUtils faker = new FakerUtils();
         FakerUtils faker2 = new FakerUtils();
+        FakerUtils faker3 = new FakerUtils();
         SignUpAPI signUpApi = new SignUpAPI();
         Product product = new Product(1215);
         BillingInfo[] billingInfo = JacksonUtils.coventStringToObjectJson("allBillingInfo.json", BillingInfo[].class);
 
-        user.setUserName("chien1234" + faker.generateRandomNumber() + faker2.generateRandomNumber());
+        user.setUserName("chien1234" + faker.generateRandomNumber() + faker2.generateRandomNumber() + faker3.generateRandomNumber());
         user.setPassWord("chien1234");
         user.setGmail( user.getUserName() + "@gmail.com");
         signUpApi.register(user);
