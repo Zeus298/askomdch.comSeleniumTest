@@ -1,0 +1,22 @@
+
+[
+  {
+    "firstName": "Oska",
+    "lastName": "Ovando",
+    "address1": "9G, Vandana Building, 11, Tolstoy Rd, Atul Grove Road, Janpath, Connaught Place",
+    "city": "New Dehli",
+    "zipCode": "110001",
+    "gmail": "chienatoz3234@gmail.com",
+    "countryCode": "IN",
+    "state": "DL"
+  },
+  {
+    "firstName": "Nam",
+    "lastName": "Dan",
+    "address1": "96 Tran Duy Hung, Cau Giay, Ha Noi",
+    "city": "Ha Noi",
+    "zipCode": "15000",
+    "gmail": "chienatoz323324@gmail.com",
+    "countryCode": "VN"
+  }
+]

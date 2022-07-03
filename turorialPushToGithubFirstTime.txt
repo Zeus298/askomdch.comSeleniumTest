@@ -1,0 +1,9 @@
+git init
+git status
+Create .gitignore file
+git add --all
+Check again : git status
+git remote add origin https://github.com/Zeus298/askomdch.comSeleniumTest.git
+git remote -v
+git commit -m "first commit"
+git push -u origin master
